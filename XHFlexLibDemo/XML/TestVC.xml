@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UIView layout="@:view/testVC" attr="bgColor:#ebebeb">
+    <FlexTouchView layout="justifyContent:center, alignItems:center, width:100, height:100" attr="bgColor:blue" onPress="pushVC:">
+        <UILabel attr="fontSize:24, color:#ffffff, text:Push" />
+    </FlexTouchView>
+    <FlexTouchView layout="justifyContent:center, alignItems:center, marginLeft:20, width:100, height:100" attr="bgColor:blue" onPress="presentVC">
+        <UILabel attr="fontSize:24, color:#ffffff, text:Present" />
+    </FlexTouchView>
+</UIView>

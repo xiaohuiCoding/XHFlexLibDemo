@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UIView layout="@:view/testPresentVC" attr="bgColor:white">
+    <UIView layout="@:common/navBar" attr="bgColor:white">
+        <UIView layout="flex:1, flexDirection:row, width:100%">
+            <FlexTouchView layout="justifyContent:center, width:10%" onPress="backToHome">
+                <UIImageView layout="marginLeft:15, width:20, height:20" attr="source:btn_back_black.png" />
+            </FlexTouchView>
+            <UIView layout="flex:1, justifyContent:center, alignItems:center, height:100%">
+                <UILabel attr="fontSize:18, color:#333333, text:自定义导航栏" />
+            </UIView>
+            <UIView layout="width:10%, height:100%" />
+        </UIView>
+        <UIView layout="@:common/line" attr="bgColor:#ebebeb" />
+    </UIView>
+    <UIView layout="flex:1" attr="bgColor:white" />
+</UIView>

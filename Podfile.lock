@@ -1,0 +1,23 @@
+PODS:
+  - FlexLib (1.8.5):
+    - FlexLib/no-arc (= 1.8.5)
+    - Yoga (= 1.6.0)
+  - FlexLib/no-arc (1.8.5):
+    - Yoga (= 1.6.0)
+  - Yoga (1.6.0)
+
+DEPENDENCIES:
+  - FlexLib
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FlexLib
+    - Yoga
+
+SPEC CHECKSUMS:
+  FlexLib: e3aec417dc34e20d2b9db42e017b55eda34769db
+  Yoga: 81670877477311136b1b3f69a6307ce62e1c89cf
+
+PODFILE CHECKSUM: 815f30483a276052c5b71627c6b3cf8091cee6f1
+
+COCOAPODS: 1.5.3

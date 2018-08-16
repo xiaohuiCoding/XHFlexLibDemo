@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UIView layout="@:view/cellWrapView" attr="bgColor:white">
+    <FlexTouchView layout="justifyContent:center" onPress="showDetailPage">
+        <UIImageView name="headIcon" layout="@:view/icon" />
+    </FlexTouchView>
+    <UIView layout="flex:1, marginLeft:10">
+        <UIView layout="flexDirection:row, marginBottom:6">
+            <UILabel name="nameLabel" attr="@:view/nameLabel" />
+            <UILabel name="typeLabel" layout="flex:1, marginLeft:10" attr="@:view/typeLabel" />
+            <UILabel name="dateLabel" attr="@:view/dateLabel" />
+        </UIView>
+        <UILabel name="titleLabel" layout="marginBottom:6" attr="@:view/titleLabel" />
+        <UILabel name="contentLabel" layout="marginBottom:6" attr="@:view/contentLabel" />
+    </UIView>
+</UIView>

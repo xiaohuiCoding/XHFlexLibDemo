@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<styles>
+    <!--背景颜色-->
+    <style name="bgColorWhite">
+        <attr name="bgColor">white</attr>
+    </style>
+    
+    <style name="bgColorLightGray">
+        <attr name="bgColor">#ebebeb</attr>
+    </style>
+    
+    <!--字体颜色-->
+    <style name="colorBlack3">
+        <attr name="color">#333333</attr>
+    </style>
+    
+    <style name="colorBlack6">
+        <attr name="color">#666666</attr>
+    </style>
+    
+    <style name="colorBlack9">
+        <attr name="color">#999999</attr>
+    </style>
+    
+    <!--通用的视图属性-->
+    <style name="navBar">
+        <attr name="width">100%</attr>
+        <attr name="height">44</attr>
+    </style>
+    
+    <style name="buttomBar">
+        <attr name="width">100%</attr>
+        <attr name="height">49</attr>
+    </style>
+
+    <style name="line">
+        <attr name="width">100%</attr>
+        <attr name="height">1</attr>
+    </style>
+</styles>

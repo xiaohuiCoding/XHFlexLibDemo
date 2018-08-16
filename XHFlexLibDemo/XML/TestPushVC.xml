@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<UIView layout="@:view/testPushVC" attr="bgColor:white">
+    <UITableView name="tableView" layout="flex:1" />
+</UIView>
